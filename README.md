@@ -8,7 +8,7 @@ Calculate the points on an euler spiral using the length and bounding curvatures
 ## Usage
 
 ```
-from pyeulerspiral import eulerspiral
+from eulerspiral import eulerspiral
 
 spiral = eulerspiral.EulerSpiral.createFromLengthAndCurvature(length, curvStart, curvEnd)
 (x, y, t) = spiral.calc(s, x0, y0, curvStart, hdg)

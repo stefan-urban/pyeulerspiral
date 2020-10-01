@@ -18,7 +18,7 @@ class EulerSpiral(object):
 
         if self._gamma == 0 and kappa0 == 0:
             # Straight line
-            Cs = C0 + np.exp(1j * theta0 * s)
+            Cs = C0 + np.exp(1j * theta0) * s
 
         elif self._gamma == 0 and kappa0 != 0:
             # Arc
